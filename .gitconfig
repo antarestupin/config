@@ -1,0 +1,16 @@
+[user]
+	email = antares.tupin@gmail.com
+	name = antarestupin
+[alias]
+    st = status -s
+    co = checkout
+    ci = commit
+    nope = "!git clean -df && git co ."
+    qpush = "!f(){ br=`git rev-parse --abbrev-ref HEAD`; git push origin $br; };f"
+    fpush = "!f(){ br=`git rev-parse --abbrev-ref HEAD`; git push -f origin $br; }f"
+    fix = commit --amend
+    update = "!f(){ git checkout master; git pull origin master; git checkout -; git rebase origin/master; }f"
+    squash = rebase -i origin/master
+[core]
+    editor = /usr/bin/vi
+
