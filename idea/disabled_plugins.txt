@@ -1,0 +1,9 @@
+AntSupport
+CVS
+Git4Idea
+Subversion
+com.intellij.copyright
+com.intellij.uiDesigner
+hg4idea
+org.jetbrains.plugins.github
+org.jetbrains.plugins.javaFX

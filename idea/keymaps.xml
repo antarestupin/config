@@ -25,6 +25,10 @@
   <action id="Android.HotswapChanges">
     <keyboard-shortcut first-keystroke="meta f10" />
   </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="meta f6" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="s" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
     <keyboard-shortcut first-keystroke="meta alt divide" />
@@ -53,11 +57,25 @@
     <keyboard-shortcut first-keystroke="meta home" />
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
+  <action id="ExtractInterface">
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="meta alt m" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="m" />
+  </action>
+  <action id="ExtractSuperclass">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="GotoCustomRegion">
+    <keyboard-shortcut first-keystroke="meta alt period" />
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="GotoFile" />
   <action id="GotoRelated" />
@@ -70,6 +88,26 @@
   </action>
   <action id="Images.Editor.ToggleGrid" />
   <action id="Images.ShowThumbnails" />
+  <action id="Inline">
+    <keyboard-shortcut first-keystroke="meta alt n" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="i" />
+  </action>
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="c" />
+  </action>
+  <action id="IntroduceField">
+    <keyboard-shortcut first-keystroke="meta alt f" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="f" />
+  </action>
+  <action id="IntroduceParameter">
+    <keyboard-shortcut first-keystroke="meta alt p" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="p" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="v" />
+  </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="NextTab">
@@ -88,15 +126,20 @@
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl t" />
-    <keyboard-shortcut first-keystroke="shift meta m" second-keystroke="m" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="at" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="l" />
   </action>
   <action id="Refresh" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="shift meta m" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="r" />
   </action>
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="ctrl meta #10000a7" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="t" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
@@ -129,7 +172,7 @@
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
-    <keyboard-shortcut first-keystroke="shift meta m" second-keystroke="equals" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="equals" />
   </action>
   <action id="Switcher" />
   <action id="ToggleBookmark">
@@ -145,7 +188,7 @@
   </action>
   <action id="Unwrap">
     <keyboard-shortcut first-keystroke="shift meta delete" />
-    <keyboard-shortcut first-keystroke="shift meta m" second-keystroke="minus" />
+    <keyboard-shortcut first-keystroke="meta at" second-keystroke="minus" />
   </action>
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.UpdateProject" />
